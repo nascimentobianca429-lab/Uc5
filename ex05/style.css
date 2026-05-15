@@ -1,0 +1,31 @@
+@charset "UTF-8";
+        html{
+
+            height: 100%;
+        }
+        body {
+
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-image: radial-gradient( lightblue, green);
+
+        }
+        h1 {
+
+            font-family: 'courier new', courier, monospace;
+            color: white;
+            background-color: aqua;
+            text-align: center;
+        }
+
+        h2 {
+
+            font-family: 'Courier New', Courier, monospace;
+            background-color: lightgreen;
+        }
+        p 
+        {
+            text-align: justify;
+            color: bold;
+            
+        }
+    

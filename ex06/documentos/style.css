@@ -1,0 +1,21 @@
+ @import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+ @font-face{
+    font-family: 'Type Machine';
+    src:url(../Fontes/Type\ Machine.ttf);
+ }
+ 
+ body {
+            font-family: 'Type Machine',Arial, Helvetica, sans-serif;
+         font-size: 16px;
+            color: black;
+        }
+        h1 {           /*UTILIZAR UMA FONTE EXTERNA DO GOOGLE FONTES*/ 
+            font-family:'Arvo','Times New Roman', Times, serif;
+            font-size: 3em; 
+        }
+        p {            /*UTILIZAR UMA FONTE INTERNA DENTRO DO SEU ARQUIVO*/
+            font-family: 'Type Machine', Arial, Helvetica, sans-serif;
+            text-align: justify;
+            text-indent: 30px;
+            color:black;
+        }

@@ -1,0 +1,18 @@
+ body {
+        background-color: skyblue;
+        font-family: Arial,Arial, Helvetica,  sans-serif;
+        margin: 20px;
+  }
+ h1 {
+         color: violet;
+         background-color: cornsilk;
+
+    }
+h2 {
+        color: darkblue;
+        background-color: lightgray;
+    }
+ p {
+        ext-align: justify;
+        font-family: inherit, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      }   

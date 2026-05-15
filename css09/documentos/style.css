@@ -1,0 +1,28 @@
+/* Tipos de fontes 
+-opentype (otf)
+-truetype (ttf)
+-embedded-open-type 
+-truetype-aat(Apple advanced typography)
+*/ 
+
+
+
+
+@font-face{
+    font-family: 'love'; /*Aqui fica o nome que vai ser referenciado*/
+    src: url(../Fontes/love\ larry\ ttf.ttf);
+}
+        body {
+            font-family:"love", Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            color: black;
+        }
+        h1 {
+            font-family:"love", 'Times New Roman', Times, serif;
+            font-size: 3em; /*1em  equivale ao tamanho normal da letra.1 em é igual a 16px aproximadamente*/
+            text-align: center; /* Alinhamento de texto ao centro*/
+        }
+        p {
+            text-align: justify;
+            text-indent: 30px;/*Espaço de identação no início do parágrafo*/
+        }

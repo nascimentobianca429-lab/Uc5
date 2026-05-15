@@ -1,0 +1,12 @@
+html
+|
+|--index.html
+|
+|-- imagem
+|    |--favicon.ico
+|    |--img_original.jpg
+|    |--thumb.jpg
+|
+|--video
+       |--meu-video.mp4
+       |--video_oringinal.mp4

@@ -1,0 +1,143 @@
+body{
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        background-image: url(bg.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    aside
+    {
+        flex: 1;
+        background-image: url(bg2.jpg);
+        padding: 20px;       
+    }
+    .layout{
+        display: flex;
+        flex: 1;
+    }
+    main
+    {
+        
+        flex: 3;
+        padding: 20px;              
+    }
+    aside{
+        flex: 1;
+        background-color: grey;
+        padding: 20px;
+    }
+    footer
+    {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: darkred;
+        text-align: center;
+        border-radius: 15px;
+    }
+    h1
+    {
+        text-align: center;
+        color: darkgray;
+        background-color: black;
+        border-radius: 15px;
+    }
+    h2{
+      color:black;
+    }
+    h3{
+      color:black;
+      
+    }
+    p{
+        text-align: justify;
+        color:black;
+    }
+    nav li
+    {
+        display: inline-block;
+    }
+    nav a 
+    {
+        text-decoration: none;
+        color: darkslategray;
+        font-weight: bolder;
+        margin: 10px;
+    }
+    nav
+    {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background-color: aqua;
+        border-radius: 15px;
+    }
+    .cards { 
+       margin-top: 30px;
+    }
+    .card-container{
+       display: flex;
+       gap: 20px;
+    }
+    .card{
+        background-color:white;
+        padding: 20px;
+        border-radius: 20px;
+        flex: 1;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    input, textarea {
+        padding: 10px;
+        border-radius: 6px;
+        border: 1px solid darkgreen;
+    }
+
+    button {
+        background-color: darkgreen;
+        color: white;
+        padding: 10px;
+        border: none;
+        border-radius: 8px;
+    }
+    .contato form{
+        max-width: 400px;
+        margin: auto;
+        margin-top: 40px;
+        padding: 30px;
+        background-color: rgb(0, 0, 0,0.447);
+        border-radius: 15px;
+    }
+    .contato h2 {
+        text-align: center;
+    }
+    .sobre{
+        margin-top: 20px;
+        padding:0px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 20px;
+        text-align: center;
+    }
+    .sobre p {
+        max-width: 600px;
+        margin: 20px auto;
+    }
+    .stats {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        margin-top: 30px;
+        width: 150px;
+        text-align: justify;
+    }
+    .stats h3 {
+        font-size:  20px;
+        margin-top: 0;
+        color: darkred;
+    }

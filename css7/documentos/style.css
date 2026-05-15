@@ -1,0 +1,39 @@
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.5em;
+        }
+        h1 {
+            font-size: 2em;
+            font-weight: bolder;
+        } 
+        /* Shorthand font 
+        -font-style --> font-weight --> font-size/line-height --> font-family
+         */
+
+
+        h2{
+            font: italic bold 2em 'work Sans', sans-serif;
+        }
+        /* 
+       ---Medidas Absolutas---
+       cm = centímetros        |
+       mm = Milímetros         |--
+       in = (polegadas)        |
+       px = Pixels           ------------ Pixels não recomendado usar em telas como retina que trabalham com mais 4 pixels onde outras estão com 1
+       pt = Ponto             |
+       pc = Paica             |--- Não se recomenda por que são medidas de etipagrafia para estrita em papel. Não  recomenddaos para telas
+
+       ---Medidas Relativas---
+       em = Altura M maiúsculo de uma fonte
+       ex = Altura X minúsculo de uma fonte     
+       rem = Altura do em na root --- root é a posta onde ínicia o projeto
+       vw = Viewport Width (Largura da tela)
+       vh = Viewport Height (Altura da tela)
+
+       A w3 recomenda somente utilizar empx ou em. só iremos trabalhar com "em".
+       
+       https://www.w3schools.org/
+     */
+        
+  
